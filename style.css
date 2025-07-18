@@ -1,7 +1,46 @@
-header, main ,aside ,footer,nav{
-    background-color: bisque;
+
+ 
+.header,.main,.aside,.footer,.nav ,.sidebar,.advertise{
+
+background-color: bisque;
     border: 2px solid slateblue;
     padding: 5px;
     border-radius: 10px;
+
 }
 
+.header{
+    grid-area: header;
+    
+}
+.main{
+    grid-area: main;
+    
+}
+.aside{
+    grid-area: aside;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+.advertisement{
+    grid-area: advertisement;
+}
+.footer{
+    grid-area: footer;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    " header header header header"
+    "nav main main sidebar "
+    "nav main main advertise"
+    "footer footer footer footer"
+    
+    ;

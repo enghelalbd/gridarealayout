@@ -53,22 +53,16 @@ background-color: bisque;
 
     grid-template-areas: 
     "header"
-    "navbar"
+    "nav"
     "main"
     "sidebar"
     "advertisement"
     "footer"
-    ;
+    ;        
+    } 
 
-        
-    }
-    
-
-    }
-
-  
+    }  
 
 
-   }
-    
+   
  
